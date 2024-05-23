@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1663166954211474217.jpg" />
+    <None Remove="800px-PerritoPuss.jpg" />
+    <None Remove="Кот_в_сапогах_%28Шрек_навсегда%29.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1663166954211474217.jpg" />
+    <Resource Include="800px-PerritoPuss.jpg" />
+    <Resource Include="Кот_в_сапогах_(Шрек_навсегда).jpg" />
+  </ItemGroup>
+
+</Project>
